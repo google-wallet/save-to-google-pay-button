@@ -1,0 +1,23 @@
+{
+  "name": "@google-pay/save-button-element",
+  "version": "0.0.1",
+  "description": "Web component for Google Pay button",
+  "main": "dist/index.es5.min.js",
+  "browser": "dist/index.umd.min.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/google-pay/save-to-google-pay-button",
+    "directory": "src/button-element"
+  },
+  "homepage": "https://github.com/google-pay/save-to-google-pay-button/tree/main/src/button-element#readme",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "author": "socsieng@google.com",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "files": ["dist/*", "package.json", "README.md", "LICENSE"],
+  "keywords": ["googlepay", "google-pay", "button", "custom-element", "web-component"]
+}
