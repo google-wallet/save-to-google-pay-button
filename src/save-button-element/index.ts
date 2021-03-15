@@ -14,15 +14,6 @@
  * limitations under the License.
  */
 
-import GooglePayButton from './GooglePayButton';
-import React from 'react';
-import ReactDOM from 'react-dom';
-import defaults from '../lib/__setup__/defaults';
+import SaveToGooglePayButton from './SaveToGooglePayButton';
 
-describe('Render', () => {
-  it('renders without crashing', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<GooglePayButton {...defaults} />, div);
-    ReactDOM.unmountComponentAtNode(div);
-  });
-});
+export default SaveToGooglePayButton;

@@ -14,14 +14,13 @@
  * limitations under the License.
  */
 
-import { ButtonManager, Config } from '../lib/button-manager';
 import React, { CSSProperties } from 'react';
-import { name as softwareId, version as softwareVersion } from './package.json';
+import { ButtonManager } from '../lib/button-manager';
 
 /**
- * Properties for the Google Pay button React component
+ * Properties for the Save to Google Pay button React component
  */
-export interface Props extends Config {
+export interface Props extends gapi.savetoandroidpay.ButtonOptions {
   className?: string;
   style?: CSSProperties;
 }
@@ -29,21 +28,17 @@ export interface Props extends Config {
 const CLASS = 'google-pay-button-container';
 
 /**
- * React component for the Google Pay button
+ * React component for the Save to Google Pay button
  */
-export default class GooglePayButton extends React.Component<Props> {
-  private manager = new ButtonManager({
-    cssSelector: `.${CLASS}`,
-    softwareInfoId: softwareId,
-    softwareInfoVersion: softwareVersion,
-  });
+export default class SaveToGooglePayButton extends React.Component<Props> {
+  private manager = new ButtonManager();
   private elementRef = React.createRef<HTMLDivElement>();
 
   async componentDidMount(): Promise<void> {
     const element = this.elementRef.current;
     if (element) {
       await this.manager.mount(element);
-      this.manager.configure(this.props);
+      this.manager.configure(this.getButtonOptions());
     }
   }
 
@@ -52,7 +47,13 @@ export default class GooglePayButton extends React.Component<Props> {
   }
 
   componentDidUpdate(): void {
-    this.manager.configure(this.props);
+    this.manager.configure(this.getButtonOptions());
+  }
+
+  private getButtonOptions(): gapi.savetoandroidpay.ButtonOptions {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { className, style, ...options } = { ...this.props };
+    return options;
   }
 
   render(): JSX.Element {

@@ -14,12 +14,27 @@
  * limitations under the License.
  */
 
-/* eslint-disable @typescript-eslint/no-unused-vars */
+import './node_modules/@google-pay/save-button-element/dist/index.js';
 
-jest.mock('../load-script', () => {
-  return {
-    loadScript: (src: string): Promise<void> => Promise.resolve(),
-  };
+const button = document.querySelector('save-to-google-pay-button');
+
+[...document.querySelectorAll('select')].forEach(select => {
+  select.addEventListener('change', event => {
+    const { name, value } = event.target;
+
+    button.setAttribute(name, value);
+  });
 });
 
-import './google-pay-mock';
+button.addEventListener('success', () => {
+  console.log('success');
+});
+
+button.addEventListener('failure', event => {
+  console.log('failure', event.detail);
+});
+
+// button.onProvideJwt = () => {
+//   console.log('provide jwt');
+//   return button.jwt;
+// };

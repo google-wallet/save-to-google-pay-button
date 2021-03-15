@@ -3,6 +3,5 @@
   "dest": "./dist",
   "lib": {
     "entryFile": "../angular-public-api.ts"
-  },
-  "whitelistedNonPeerDependencies": ["@types/googlepay", "tslib"]
+  }
 }

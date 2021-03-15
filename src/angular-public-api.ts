@@ -15,10 +15,8 @@
  */
 
 /*
- * Public API Surface of google-pay-button
+ * Public API Surface of save-to-google-pay-button
  */
 
-export * from './button-angular/lib/google-pay-button.component';
-export * from './button-angular/lib/google-pay-button.module';
-
-export { ReadyToPayChangeResponse } from './lib/button-manager';
+export * from './save-button-angular/lib/save-to-google-pay-button.component';
+export * from './save-button-angular/lib/save-to-google-pay-button.module';

@@ -14,14 +14,12 @@
  * limitations under the License.
  */
 
-import React from 'react';
-import './Example.css';
+import { NgModule } from '@angular/core';
+import { SaveToGooglePayButtonComponent } from './save-to-google-pay-button.component';
 
-export default function Example(props: any): React.ReactElement {
-  return (
-    <div className="example">
-      <div className="title">{props.title}</div>
-      <div className="demo">{props.children}</div>
-    </div>
-  );
-}
+@NgModule({
+  declarations: [SaveToGooglePayButtonComponent],
+  imports: [],
+  exports: [SaveToGooglePayButtonComponent],
+})
+export class SaveToGooglePayButtonModule {}

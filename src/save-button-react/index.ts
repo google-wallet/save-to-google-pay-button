@@ -14,12 +14,6 @@
  * limitations under the License.
  */
 
-import { GooglePayButtonComponent } from './google-pay-button.component';
-import { NgModule } from '@angular/core';
+import SaveToGooglePayButton from './SaveToGooglePayButton';
 
-@NgModule({
-  declarations: [GooglePayButtonComponent],
-  imports: [],
-  exports: [GooglePayButtonComponent],
-})
-export class GooglePayButtonModule {}
+export default SaveToGooglePayButton;
