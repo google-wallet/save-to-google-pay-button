@@ -3,6 +3,8 @@
 The [Save to Google Pay button][save-to-google-pay] makes it easy embed the Save to Google Pay button into your
 websites.
 
+<img src="docs/images/save-to-google-pay-button.png" width="260" height="48" alt="Save to Google Pay" />
+
 This repository takes the [Save to Google Pay button][save-to-google-pay] experience and makes the integration process
 easier for those building websites with frameworks like React, Angular, Vue (and many others), or even those who don't
 use a framework.
