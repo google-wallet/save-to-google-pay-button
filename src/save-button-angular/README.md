@@ -27,11 +27,9 @@ import { SaveToGooglePayButtonModule } from '@google-pay/save-button-angular';
 </save-to-google-pay-button>
 ```
 
-More Angular examples can be found in the
+An Angular example can be found in the
 [examples folder](https://github.com/google-pay/save-to-google-pay-button/tree/main/examples/angular/src/app) of this
 repository.
-
-Try it out on [StackBlitz](https://stackblitz.com/edit/google-pay-angular).
 
 ## Documentation
 

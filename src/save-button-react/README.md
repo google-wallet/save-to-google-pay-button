@@ -14,7 +14,7 @@ npm install @google-pay/save-button-react
 <SaveToGooglePay jwt="eyJhbGci...7_eD2kT3_IuHxw" height="standard" textsize="large" />
 ```
 
-More React examples can be found in the
+A React example can be found in the
 [examples folder](https://github.com/google-pay/save-to-google-pay-button/tree/main/examples/react/src/examples) of this
 repository.
 

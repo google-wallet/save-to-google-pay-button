@@ -3,8 +3,8 @@
 This is the web component for the Save to Google Pay button. This component can be used in standard HTML websites as
 well as websites built with many popular JavaScript frameworks.
 
-Note that React and Angular developers should use the @google-pay/save-button-react and @google-pay/save-button-angular
-versions of this component.
+Note that React and Angular developers should use the `@google-pay/save-button-react` and
+`@google-pay/save-button-angular` versions of this component.
 
 ## Installation
 
@@ -19,12 +19,12 @@ npm install @google-pay/save-button-element
 </save-to-google-pay-button>
 ```
 
-More HTML examples can be found in the
+An HTML example can be found in the
 [examples folder](https://github.com/google-pay/save-to-google-pay-button/tree/main/examples/html) of this repository.
 
 ## Example usage: Vue website
 
-A Vue example is very similar to the HTML version above. Code samples can be found in the
+The Vue example is very similar to the HTML version above. An example can be found in the
 [examples folder](https://github.com/google-pay/save-to-google-pay-button/tree/main/examples/vue/src/components) of this
 repository.
 
