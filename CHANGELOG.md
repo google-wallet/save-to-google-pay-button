@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.1](https://www.github.com/google-pay/save-to-google-pay-button/compare/v0.1.0...v0.1.1) (2021-03-16)
+
+
+### Bug Fixes
+
+* add SKIP_PREFLIGHT_CHECK to react example ([c339005](https://www.github.com/google-pay/save-to-google-pay-button/commit/c33900595daa228c4f406ea0303d8399c5a7dc0b))
+
 ## 0.1.0 (2021-03-15)
 
 
