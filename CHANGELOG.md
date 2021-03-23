@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0](https://www.github.com/google-pay/save-to-google-pay-button/compare/v0.1.1...v1.0.0) (2021-03-23)
+
+
+### Features
+
+* release first stable version ([a25d334](https://www.github.com/google-pay/save-to-google-pay-button/commit/a25d33468229067e522ab6db09353aee1ba2838b))
+
 ### [0.1.1](https://www.github.com/google-pay/save-to-google-pay-button/compare/v0.1.0...v0.1.1) (2021-03-16)
 
 
