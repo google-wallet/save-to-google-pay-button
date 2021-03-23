@@ -25,5 +25,5 @@
     "react-dom": ">=16.3.0"
   },
   "files": ["dist/*", "package.json", "README.md", "LICENSE"],
-  "keywords": ["googlepay", "google-pay", "button", "react"]
+  "keywords": ["googlepay", "google-pay", "passes", "save", "save-to-google-pay", "button", "react"]
 }

@@ -19,5 +19,14 @@
   "license": "Apache-2.0",
   "dependencies": {},
   "files": ["dist/*", "package.json", "README.md", "LICENSE"],
-  "keywords": ["googlepay", "google-pay", "button", "custom-element", "web-component"]
+  "keywords": [
+    "googlepay",
+    "google-pay",
+    "passes",
+    "save",
+    "save-to-google-pay",
+    "button",
+    "custom-element",
+    "web-component"
+  ]
 }
