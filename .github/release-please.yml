@@ -15,4 +15,4 @@
 primaryBranch: main
 releaseType: node
 handleGHRelease: true
-bumpMinorPreMajor: true
+bumpMinorPreMajor: false
