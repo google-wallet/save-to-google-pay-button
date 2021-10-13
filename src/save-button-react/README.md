@@ -15,8 +15,7 @@ npm install @google-pay/save-button-react
 ```
 
 A React example can be found in the
-[examples folder](https://github.com/google-pay/save-to-google-pay-button/tree/main/examples/react/src/examples) of this
-repository.
+[examples folder](https://github.com/google-pay/save-to-google-pay-button/tree/main/examples/react) of this repository.
 
 ## Documentation
 
