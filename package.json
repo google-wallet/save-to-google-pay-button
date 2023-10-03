@@ -28,7 +28,7 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "@angular-devkit/build-angular": "^12.2.4",
-    "@angular/cli": "^12.2.4",
+    "@angular/cli": "^12.2.18",
     "@angular/compiler": "^12.2.4",
     "@angular/compiler-cli": "^12.2.4",
     "@angular/core": "^12.2.4",
