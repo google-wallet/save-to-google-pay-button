@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "serve": "^11.3.2"
+    "serve": "^14.2.6"
   },
   "dependencies": {
     "@google-pay/save-button-element": "file:../../src/save-button-element"
